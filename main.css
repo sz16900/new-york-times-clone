@@ -6,19 +6,26 @@
     outline: none;
 }
 
-/* resets the stylesheet from materilize icons */
+ul,li{
+    list-style: none;
+}
+
+/* Resets the stylesheet from material icons */
+
 .material-icons {
-    font-size: 2px;
+    font-size: 0px;
 }
 
 /* NAVIGATION */
-
 .nav-wrapper {
-
+    position: fixed;
+    top:0;
+    background-color: white;
     width: 100%;
     height: 38px;
     border-bottom: 1px solid #e2e2e2;
     padding: 4px 15px 2px 15px;
+    z-index: 200;
 }
 .menu-search {
     width: 100px;
@@ -63,5 +70,85 @@
     font-size: 11px;
     font-weight: bold;
     font-family: 'Libre Franklin', sans-serif;
+}
 
+.title-wrapper {
+    width: 100%;
+    position: relative;
+    top:70px;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+    width: 420px;
+    position: relative;
+    left:290px;
+}
+
+.wrapper-image {
+    width: 945px;
+    margin: 100px auto 0 auto;
+    
+}
+
+.wrapper-image img {
+    width:100%;
+    height: 531.56px;
+    
+}
+
+.wrapper-image figcaption {
+    margin-right: 150px;
+    color: rgb(94, 94, 94);
+    background-color: hotpink;
+}
+
+.author{
+    background-color: gray;
+    width:600px;
+    margin: 30px auto;
+}
+
+.author-text{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: bold;
+}
+
+.wrapper-date-social {
+    background-color: cadetblue;
+    margin-top:20px;
+}
+
+.date {
+    font-family:'Times New Roman', Times, serif;;
+    font-weight: lighter;
+    float: left;
+    padding-top: 8px;
+}
+
+.icons-social{
+    float: right;
+    /* background: brown; */
+}
+
+.icons-social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.circle{
+    border-radius: 100%;
+    padding: 10px;
+    background-color: rgb(202, 202, 202);
+}
+
+
+/* main-news */
+
+.main-news {
+    position: relative;
+    top:50px;
 }
