@@ -107,7 +107,7 @@ h1 {
 }
 
 .author{
-    background-color: gray;
+    /* background-color: gray; */
     width:600px;
     margin: 30px auto;
 }
@@ -151,4 +151,54 @@ h1 {
 .main-news {
     position: relative;
     top:50px;
+}
+
+.main-news p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+    margin: 0 0 15px;
+}
+
+.subtitle {
+    padding: 15px 0;
+}
+
+.inflation-subtitle {
+    font-family: georgia,times new roman,times,serif;
+    color: #666;
+    padding: 3px;
+}
+
+.wrapper-inflation {
+    position: relative;
+}
+
+.mini-paragraph {
+    position: absolute;
+    width: 228px;
+    height: 120px;
+    background-color: red;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.first-paragraph {
+    top: 200px;
+    left:0;
+}
+
+.second-paragraph {
+    top: 200px;
+    left: 240px;
+}
+
+.third-paragraph {
+    top: 200px;
+    left: 480px;
+}
+
+.fourth-paragraph {
+    top: 200px;
+    left: 720px;
 }
