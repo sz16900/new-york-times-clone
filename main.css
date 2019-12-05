@@ -10,6 +10,10 @@ ul,li{
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Resets the stylesheet from material icons */
 
 .material-icons {
@@ -39,7 +43,6 @@ ul,li{
 
 .space-anchor {
     font-family: 'Libre Franklin', sans-serif;
-    text-decoration: none;
     color: black;
     font-weight: bold;
     font-size: 14px;
@@ -256,28 +259,29 @@ h1 {
 /* Suggestions section */
 
 .suggestion-section {
-    /* background-color: blueviolet; */
+    /* background: blue; */
     width: 100%;
     margin-top: 100px;
     height: 800px;
-    padding-top:20px;
+    /* padding:20px 38px 0; */
 }
 
 .suggestions {
-    /* background-color: red; */
-    width: 820px;
+    /* background: red; */
+    width: 840px;
     height: 700px;
     border-top: 1px solid black;
     float:left;
+    padding-left: 18px;
 
 }
 
 .suggestions-aside {
-    /* background-color: cornflowerblue; */
     width:360px;
     height: 700px;
     float: right;
     border-top: 1px solid black;
+    padding-right: 18px;
 }
 
 .suggestions-aside li {
@@ -286,7 +290,6 @@ h1 {
 }
 
 .suggestions-aside a {
-    text-decoration: none;
     font-size:19px;
     font-weight: 500;
     line-height: 1.4375rem;
@@ -294,7 +297,37 @@ h1 {
     
 }
 
+.suggestions h4 {
+    padding: 18px 0 18px 0;
+}
+
+.suggestions a {
+    color: black;
+}
+
+.suggestions a:hover{
+    text-decoration-line: underline;
+}
+
+
+
 .suggestions-aside a:hover {
     color:#888;
     cursor:pointer;
+}
+
+.box-suggestion {
+    /* background-color: orchid; */
+    float: left;
+    width: 33.33%;
+    padding-bottom: 45px;
+}
+
+.box-suggestion img {
+    width: 270px;
+    height: auto;
+}
+
+.clear {
+    clear: left;
 }
