@@ -106,7 +106,7 @@ h1 {
 .wrapper-image figcaption {
     margin-right: 150px;
     color: rgb(94, 94, 94);
-    background-color: hotpink;
+    /* background-color: hotpink; */
 }
 
 .author{
@@ -330,4 +330,10 @@ h1 {
 
 .clear {
     clear: left;
+}
+
+.line {
+    border:0.5px solid black;
+    width:100%;
+    margin-bottom:10px;
 }
