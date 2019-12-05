@@ -178,7 +178,6 @@ h1 {
     position: absolute;
     width: 228px;
     height: 120px;
-    background-color: red;
     font-size: 14px;
     padding: 5px;
 }
@@ -202,3 +201,47 @@ h1 {
     top: 200px;
     left: 720px;
 }
+
+.fifth-paragraph {
+    top: 455px;
+    left: 0;
+}
+
+.sixth-paragraph {
+    top: 455px;
+    left: 240px;
+}
+
+.seventh-paragraph {
+    top: 455px;
+    left: 480px;
+}
+
+.eighth-paragraph {
+    top: 455px;
+    left: 720px;
+}
+
+.inflation-footer {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 13px;
+}
+
+.inflation-footer::before {
+    width: 60px;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    margin: 0 0 13px;
+    background-color: #000;
+}
+
+.caption {
+    margin: 10px 0 50px 0;
+}
+
+.video-credits {
+    font-size: 0.9em;
+    color: #888;
+}
+
