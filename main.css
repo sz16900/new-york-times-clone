@@ -245,3 +245,56 @@ h1 {
     color: #888;
 }
 
+/* Footer main section */
+
+.footer-main-section {
+    background-color: aqua;
+    width: 600px;
+    height: 100px;
+}
+
+/* Suggestions section */
+
+.suggestion-section {
+    /* background-color: blueviolet; */
+    width: 100%;
+    margin-top: 100px;
+    height: 800px;
+    padding-top:20px;
+}
+
+.suggestions {
+    /* background-color: red; */
+    width: 820px;
+    height: 700px;
+    border-top: 1px solid black;
+    float:left;
+
+}
+
+.suggestions-aside {
+    /* background-color: cornflowerblue; */
+    width:360px;
+    height: 700px;
+    float: right;
+    border-top: 1px solid black;
+}
+
+.suggestions-aside li {
+    padding: 15px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.suggestions-aside a {
+    text-decoration: none;
+    font-size:19px;
+    font-weight: 500;
+    line-height: 1.4375rem;
+    color: #121212;
+    
+}
+
+.suggestions-aside a:hover {
+    color:#888;
+    cursor:pointer;
+}
