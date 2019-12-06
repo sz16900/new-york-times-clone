@@ -8,6 +8,11 @@
   font-family: 'Libre Franklin', sans-serif;
 }
 
+iframe {
+  width: 600px;
+  height: 319px;
+}
+
 /* Resets the stylesheet from material icons */
 
 .material-icons {
@@ -111,12 +116,9 @@ h1 {
 .wrapper-image figcaption {
   margin-right: 150px;
   color: rgb(94, 94, 94);
-
-  /* background-color: hotpink; */
 }
 
 .author {
-  /* background-color: gray; */
   width: 600px;
   margin: 30px auto;
 }
@@ -189,12 +191,6 @@ h1 {
   margin: 7px 8px;
   width: 15px;
   height: 15px;
-}
-
-.final-icon {
-  width: 30px;
-  height: 30px;
-  margin-left: -5px;
 }
 
 /* MAIN NEWS */
