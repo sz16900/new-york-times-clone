@@ -8,6 +8,10 @@
   font-family: 'Libre Franklin', sans-serif;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 iframe {
   width: 600px;
   height: 319px;
@@ -335,7 +339,8 @@ h1 {
 }
 
 .suggestions a {
-  font-size:0.8em;
+  font-size: 0.8em;
+  color: black;
 }
 
 .suggestions-aside {
@@ -357,10 +362,6 @@ h1 {
   padding: 18px 0 18px 0;
 }
 
-.suggestions a {
-  color: black;
-}
-
 .main-footer a {
   color: #121212;
   font-size: 10px;
@@ -375,6 +376,11 @@ h1 {
   font-size: 12px;
   color: black;
   padding-bottom: 12px;
+}
+
+.sticky-footer a {
+  text-decoration: none;
+  color: black;
 }
 
 .suggestions a:hover {
@@ -514,7 +520,7 @@ h1 {
 
 .main-footer {
   text-align: center;
-  height: 50px;
+  height: 120px;
   border-top: 0.2px solid #888;
 }
 
@@ -524,4 +530,44 @@ h1 {
 
 .main-footer a:hover {
   text-decoration: underline;
+}
+
+/* STICKY FOOTER */
+
+.sticky-footer {
+  position: fixed;
+  z-index: 10000;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  border-top: 1px solid black;
+  height: 55px;
+  text-align: center;
+}
+
+.footer-access {
+  display: inline-block;
+  margin: 20px 20px 0 0;
+  width: 100%;
+}
+
+.sticky-footer a:hover {
+  text-decoration: underline;
+}
+
+.sticky-footer button {
+  position: absolute;
+  right: 9%;
+  width: 175px;
+  background-color: inherit;
+}
+
+.sticky-footer strong {
+  color: black;
+  padding-right: 4%;
+  font-size: 0.8em;
+}
+
+.css-8xcdch {
+  transform: rotate(-90deg);
 }
