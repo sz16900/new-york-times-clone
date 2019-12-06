@@ -99,8 +99,7 @@ h1 {
   font-weight: bold;
   font-size: 40px;
   width: 420px;
-  position: relative;
-  left: 290px;
+  margin: 0 auto;
 }
 
 .wrapper-image {
@@ -139,7 +138,7 @@ h1 {
 
 .wrapper-date-social {
   background-color: cadetblue;
-  margin-top: 20px;
+  margin: 20px 0 55px 0;
 }
 
 .date {
@@ -458,19 +457,12 @@ h1 {
 
 /* ASIDE FLOATS */
 
-.wrapper-main {
-  height: 2073px;
-}
-
-.floated-news {
-  float: left;
-  margin-left: 330px;
-}
-
 .main-aside {
-  float: right;
   width: 210px;
   margin: 239px 67px 0 0;
+  position: absolute;
+  left: 105%;
+  top: 1%;
 }
 
 .signup-aside {
@@ -481,6 +473,7 @@ h1 {
   color: #666;
   padding: 8px 0 8px 0;
   font-size: 13px;
+  line-height: 1.2em;
 }
 
 .main-aside button {
