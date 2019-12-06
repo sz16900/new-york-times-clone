@@ -321,8 +321,8 @@ h1 {
 /* SUGGESTION SECTION */
 
 .suggestion-section {
-  width: 100%;
-  margin-top: 100px;
+  width: 1200px;
+  margin: 100px auto 0 auto;
   height: 920px;
 }
 
@@ -332,6 +332,10 @@ h1 {
   border-top: 1px solid black;
   float: left;
   padding: 0 3% 0 3%;
+}
+
+.suggestions a {
+  font-size:0.8em;
 }
 
 .suggestions-aside {
