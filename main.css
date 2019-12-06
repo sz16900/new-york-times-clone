@@ -156,6 +156,15 @@ h1 {
   height: 30px;
 }
 
+.suggestions-aside li {
+  padding: 20px 0;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.footer-links li {
+  height: 25px;
+}
+
 .icons-social li {
   margin-right: 20px;
   float: left;
@@ -163,6 +172,11 @@ h1 {
   height: 30px;
   border-radius: 50%;
   background-color: #eee;
+}
+
+.main-footer li {
+  display: inline;
+  margin-right: 10px;
 }
 
 .icons-social li:hover {
@@ -282,8 +296,6 @@ h1 {
   color: #888;
 }
 
-
-
 /* FOOTER MAIN SECTION */
 
 .footer-main-section {
@@ -335,11 +347,6 @@ h1 {
   padding-right: 18px;
 }
 
-.suggestions-aside li {
-  padding: 20px 0;
-  border-bottom: 1px solid rgb(226, 226, 226);
-}
-
 .suggestions-aside a {
   font-size: 19px;
   font-weight: 500;
@@ -353,6 +360,22 @@ h1 {
 
 .suggestions a {
   color: black;
+}
+
+.main-footer a {
+  color: #121212;
+  font-size: 10px;
+}
+
+.footer-links a {
+  font-size: 12px;
+  color: black;
+}
+
+.float-suggestions a {
+  font-size: 12px;
+  color: black;
+  padding-bottom: 12px;
 }
 
 .suggestions a:hover {
@@ -423,15 +446,6 @@ h1 {
   font-weight: bold;
 }
 
-.footer-links li {
-  height: 25px;
-}
-
-.footer-links a {
-  font-size: 12px;
-  color: black;
-}
-
 .footer-links a:hover {
   text-decoration: underline;
 }
@@ -498,12 +512,6 @@ h1 {
   height: 26px;
 }
 
-.float-suggestions a {
-  font-size: 12px;
-  color: black;
-  padding-bottom: 12px;
-}
-
 .float-suggestions figcaption {
   margin-left: 90px;
   font-size: 12px;
@@ -519,16 +527,6 @@ h1 {
 
 .main-footer ul {
   margin: 20px auto;
-}
-
-.main-footer li {
-  display: inline;
-  margin-right: 10px;
-}
-
-.main-footer a {
-  color: #121212;
-  font-size: 10px;
 }
 
 .main-footer a:hover {
